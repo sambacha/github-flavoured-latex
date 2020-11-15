@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>GitHub Flavoured LaTeX </title>
+    <link href="signin.css" rel="stylesheet">
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+      </style>
+</head>
+<body>
+    
+    <body class="text-center">
+        <main role="main" class="container"></main>
+        <form class="latex-conversion">
+<label for="input">LaTeX equation: </label>
+<!-- <input type="text" name="input"> -->
+<br><textarea rows="10" cols="50" name="input"></textarea>
+<br><br>
+
+<button onClick="toGithubRenderURL()">Generate URL</button>
+<br><br>
+
+<label for="output">The URL is: </label>
+<input type="url" name="output" placeholder="https://render.githubusercontent.com/render/math?math=">
+<br><br>
+
+<label for="result">The result is: </label>
+<p id="result"></p>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<p class="mt-5 mb-3 text-muted">&copy; CC-0 Public Domain </p>
+
+</body>
+</html>
