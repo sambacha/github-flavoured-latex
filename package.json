@@ -1,12 +1,12 @@
 {
   "name": "gfm-latex",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generate GitHub optimized image url's for display LaTeX in GitHub Flavoured Markdown",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [ "github", "markdown", "latex", "github flavoured markdown", "equations" ],
+  "author": "sam bacha <sam@freighttrust.com>",
   "license": "ISC"
 }
